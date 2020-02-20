@@ -16,6 +16,10 @@ def add_song(Kiss)
     song.artist = self
     
 def song
+  song.all.find_all do |songs|
+end
+
+
   
 end
 
