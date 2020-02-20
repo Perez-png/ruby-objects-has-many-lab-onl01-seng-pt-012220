@@ -5,7 +5,7 @@ class Song
   @@all = []
 end
 
-def initialize()
+def initialize(Prince)
   @Prince = Prince
   @@all << Prince
 
@@ -24,13 +24,8 @@ def self.find_by_name(name)
   @@all.find {|Artist|}
 end 
 
-end
 
 
-  
+end
 end
 
-end
-
-end
-end
