@@ -14,6 +14,9 @@ def self.all
   
 def add_song(Kiss)
     song.artist = self
+    
+def song
+  
 end
 
 end
