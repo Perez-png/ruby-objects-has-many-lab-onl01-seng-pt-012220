@@ -17,6 +17,13 @@ def add_song(Kiss)
     
 def song
   song.all.find_all do |songs|
+
+def self.find_by_name(name)
+  new.artist = Artist.new(name)
+  self.all
+  @@all.find {|Artist|}
+end 
+
 end
 
 
