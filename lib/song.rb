@@ -18,11 +18,12 @@ def add_song(Kiss)
 def song
   song.all.find_all do |songs|
 
-def self.find_by_name(name)
-  new.artist = Artist.new(name)
+def self.find_by_name(Prince)
+  new.artist = Artist.new(Prince)
   self.all
-  @@all.find {|Artist|}
-end 
+  @@all.find {|Artist| artist.Prince == Prince}
+end
+
 
 
 
